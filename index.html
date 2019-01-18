@@ -6,17 +6,57 @@
     <title>A2OS</title>
     <link rel="shortcut icon" href="">
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Here is A2OS.">
     <meta name="keywords" content="A2OS">
     <meta name="author" content="a2os">
+	<style>
+		a{
+			width: 15%;
+			height: 25px;
+			background: rgb(110, 110, 110);
+			padding: 10px;
+			text-align: center;
+			border-radius: 5px;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			margin: 5px 5px 5px
+		}
+	</style>
 </head>
 
 <body style="background-color:rgb(255, 255, 255); font-family:'Microsoft Yahei'">
     <h1 style="text-align: center">A2OS</h1>
-    <footer style="text-align: center">   
-        <p>@a2os.club 2018-2019 All rights reserved.</p>
-
+	
+	<div style="text-align: center">
+		<p id="a2ostime" style="font-size: 75px; margin: 35px 5px 5px"></p>
+		<p style="text-align: right; font-size: 25px; color: rgb(193, 193, 193); margin: 3px 20% 55px 5px">seconds since foundation....</p>
+	</div>
+	
+	<hr style="margin: 3px 10% 5px 10%">
+	
+	<div style="text-align: center; margin: 35px 5px 75px">
+		<a href="https://a2os.club/">Home</a>
+		<a href="https://github.com/orgs/NUAA-Open-Source/">Github</a>
+		<a href="https://blogroll.a2os.club/">BlogRoll</a>
+		<a href="https://ftp.a2os.club/">FTP</a>
+	</div>
+	
+    <footer style="text-align: center">
+		<hr>
+        <p style="margin: 0px 0px 0px"> &copy;a2os.club 2018-2019 All rights reserved.</p>
     </footer>
+	
+	<script type="text/javascript">
+		function changetimestamp(){
+			var starttime=1539460800;
+			var nowseconds = new Date().getTime() / 1000;
+			document.getElementById("a2ostime").innerHTML = parseInt(nowseconds-starttime);
+		}
+		changetimestamp();
+		var t = setInterval("changetimestamp()",1000);
+	</script>
 </body>
 
 
