@@ -73,10 +73,12 @@
 												地点：江宁校区一号楼六楼IT创新区会议室<br>
 												讲者：陆建宇
 											</p>
-											<ul class="actions">
-												<li><a href="https://groups.google.com/group/a2os-general" class="button big">关注邮件列表及时获取 A2OS Weekly 的消息</a></li>
-												<li><a href="https://github.com/NUAA-Open-Source/A2OS/blob/master/历次培训及讲座.md" class="button big">查看历届 A2OS Weekly</a></li>
-											</ul>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12">
+											<a href="https://groups.google.com/group/a2os-general" class="button big">关注邮件列表及时获取 A2OS Weekly 的消息</a>
+											<a href="https://github.com/NUAA-Open-Source/A2OS/blob/master/历次培训及讲座.md" class="button big">查看历届 A2OS Weekly</a>
 										</div>
 									</div>
 								</section>
@@ -158,6 +160,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$.ajax({
+					url: "https://nuaa-rss.herokuapp.com/",
+					type: "get",
+					success: function(data) {
+						console.log(data)
+					},
+					error: function(error) {
+						console.log(error)
+					}
+				})
+			</script>
 	</body>
 </html>
