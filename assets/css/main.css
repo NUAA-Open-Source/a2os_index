@@ -3567,3 +3567,10 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+
+/* for a2os only */
+.beianhao {
+	color:rgb(165, 165, 165); 
+	font-size: 10px
+}
