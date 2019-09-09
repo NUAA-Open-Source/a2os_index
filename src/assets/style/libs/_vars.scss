@@ -20,9 +20,10 @@
 	);
 
 // Font.
+//TODO: 修改字体
 	$font: (
-		family:				('Open Sans', sans-serif),
-		family-heading:		('Roboto Slab', serif),
+		family:				('Avenir', Helvetica, Arial, '微软雅黑',sans-serif),
+		family-heading:		('Avenir', Helvetica, Arial, '微软雅黑',sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				400,
 		weight-bold:		600,
