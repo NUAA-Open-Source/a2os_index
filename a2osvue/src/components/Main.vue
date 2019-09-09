@@ -144,11 +144,5 @@ h3 img {
   border-bottom: none;
 }
 
-.hover-image img {
-  display: none;
-}
 
-.hover-image:hover img {
-  display: block;
-}
 </style>

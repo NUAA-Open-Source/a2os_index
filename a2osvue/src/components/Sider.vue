@@ -59,4 +59,13 @@ export default {
   position: fixed;
 }
 
+.hover-image img {
+  display: none;
+}
+
+.hover-image:hover img {
+  display: block;
+}
+
+
 </style>
