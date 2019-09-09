@@ -24,7 +24,7 @@
           <li class="fa-qq">
             <a class="hover-image">
               A2OS-Beta QQ群
-              <img src="images/qq_group.jpg" style="width: 90%" />
+              <img src="@/assets/images/qq_group.jpg" style="width: 90%" />
             </a>
           </li>
           <li class="fa-telegram">

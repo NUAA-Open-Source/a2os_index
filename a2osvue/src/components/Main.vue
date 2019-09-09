@@ -118,34 +118,34 @@
           <div class="col-12">
             <div class="row gtr-uniform" id="members">
               <a href="https://github.com/40m41h42t">
-                <img class="icon avatar" src="images/40m41h42t.png" alt />
+                <img class="icon avatar" src="@/assets/images/40m41h42t.png" alt />
               </a>
               <a href="https://github.com/arcosx">
-                <img class="icon avatar" src="images/arcosx.png" alt />
+                <img class="icon avatar" src="@/assets/images/arcosx.png" alt />
               </a>
               <a href="https://github.com/LogicJake">
-                <img class="icon avatar" src="images/logicjake.png" alt />
+                <img class="icon avatar" src="@/assets/images/logicjake.png" alt />
               </a>
               <a href="https://github.com/milkice233">
-                <img class="icon avatar" src="images/milkice.png" alt />
+                <img class="icon avatar" src="@/assets/images/milkice.png" alt />
               </a>
               <a href="https://github.com/RayZhao1998">
-                <img class="icon avatar" src="images/ninjiacoder.png" alt />
+                <img class="icon avatar" src="@/assets/images/ninjiacoder.png" alt />
               </a>
               <a href="https://github.com/RyanSu98">
-                <img class="icon avatar" src="images/RyanSu.png" alt />
+                <img class="icon avatar" src="@/assets/images/RyanSu.png" alt />
               </a>
               <a href="https://github.com/seiry">
-                <img class="icon avatar" src="images/seiryyu.png" alt />
+                <img class="icon avatar" src="@/assets/images/seiryyu.png" alt />
               </a>
               <a href="https://github.com/Triple-Z">
-                <img class="icon avatar" src="images/triplez.png" alt />
+                <img class="icon avatar" src="@/assets/images/triplez.png" alt />
               </a>
               <a href="https://github.com/Villivateur">
-                <img class="icon avatar" src="images/vvzero.png" alt />
+                <img class="icon avatar" src="@/assets/images/vvzero.png" alt />
               </a>
               <a href="https://github.com/ZeddYu">
-                <img class="icon avatar" src="images/ZeddYu.png" alt />
+                <img class="icon avatar" src="@/assets/images/ZeddYu.png" alt />
               </a>
             </div>
           </div>
