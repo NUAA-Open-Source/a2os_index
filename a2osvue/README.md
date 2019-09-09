@@ -1,5 +1,9 @@
 # a2osvue
 
+使用了 `vue cli` 重构
+
+莽就完事了
+
 ## Project setup
 ```
 npm install

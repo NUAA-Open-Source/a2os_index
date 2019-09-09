@@ -1,7 +1,9 @@
 {
   "name": "a2osvue",
-  "version": "0.1.0",
-  "private": true,
+  "desc": "a2os 首页",
+  "version": "1.1.0",
+  "private": false,
+  "author": "Seiry Yu, vvzero",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern"
