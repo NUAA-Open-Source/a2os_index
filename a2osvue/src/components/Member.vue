@@ -6,7 +6,6 @@
     <div class="row">
       <div class="col-12">
         <div class="row gtr-uniform" id="members">
-          <!-- {{members}} -->
           <a v-for="m of members" :key="m.link" :href="m.link">
             <!-- {{m}} -->
             <img class="icon avatar" :src="m.avatar" alt="" />
