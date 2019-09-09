@@ -8,7 +8,8 @@
         </header>
         <ul>
           <li>
-            <a href="index.html">主页</a>
+            <!-- <a href="index.html"></a> -->
+            <router-link to="/">主页</router-link>
           </li>
         </ul>
       </nav>
@@ -57,18 +58,5 @@ export default {
 #sidebar .inner{
   position: fixed;
 }
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

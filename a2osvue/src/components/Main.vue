@@ -3,9 +3,7 @@
     <div class="inner">
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">
-          <strong>A2OS</strong> 南京航空航天大学开源社区
-        </a>
+        <router-link to="/"  class="logo"><strong>A2OS</strong> 南京航空航天大学开源社区</router-link>
         <ul class="icons">
           <li>
             <a href="https://github.com/NUAA-Open-Source" class="icon fa-github">
@@ -96,71 +94,21 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <a href="https://groups.google.com/group/a2os-general" class="button big">
+            <a href="https://groups.google.com/group/a2os-general" class="button big" target="_blank">
               关注邮件列表及时获取 A2OS
               Weekly 的消息
             </a>
             <a
               href="https://github.com/NUAA-Open-Source/A2OS/blob/master/历次培训及讲座.md"
               class="button big"
+              target="_blank"
             >查看历届 A2OS Weekly</a>
           </div>
         </div>
       </section>
       <!-- Section -->
 
-      <!-- Section -->
-      <section>
-        <header class="major">
-          <h2>Members</h2>
-        </header>
-        <div class="row">
-          <div class="col-12">
-            <div class="row gtr-uniform" id="members">
-              <a href="https://github.com/40m41h42t">
-                <img class="icon avatar" src="@/assets/images/40m41h42t.png" alt />
-              </a>
-              <a href="https://github.com/arcosx">
-                <img class="icon avatar" src="@/assets/images/arcosx.png" alt />
-              </a>
-              <a href="https://github.com/LogicJake">
-                <img class="icon avatar" src="@/assets/images/logicjake.png" alt />
-              </a>
-              <a href="https://github.com/milkice233">
-                <img class="icon avatar" src="@/assets/images/milkice.png" alt />
-              </a>
-              <a href="https://github.com/RayZhao1998">
-                <img class="icon avatar" src="@/assets/images/ninjiacoder.png" alt />
-              </a>
-              <a href="https://github.com/RyanSu98">
-                <img class="icon avatar" src="@/assets/images/RyanSu.png" alt />
-              </a>
-              <a href="https://github.com/seiry">
-                <img class="icon avatar" src="@/assets/images/seiryyu.png" alt />
-              </a>
-              <a href="https://github.com/Triple-Z">
-                <img class="icon avatar" src="@/assets/images/triplez.png" alt />
-              </a>
-              <a href="https://github.com/Villivateur">
-                <img class="icon avatar" src="@/assets/images/vvzero.png" alt />
-              </a>
-              <a href="https://github.com/ZeddYu">
-                <img class="icon avatar" src="@/assets/images/ZeddYu.png" alt />
-              </a>
-            </div>
-          </div>
-        </div>
-        <br />
-        <div class="row">
-          <div class="col-12">
-            <a
-              href="https://github.com/NUAA-Open-Source/"
-              class="button big"
-            >加入我们的 GitHub 组织，你将会出现在这里。</a>
-          </div>
-        </div>
-      </section>
-      <!-- Section -->
+      <Member />
     </div>
     <div style="text-align: center">
       <hr />
@@ -170,26 +118,37 @@
 </template>
 
 <script>
+import Member from './Member'
 export default {
   name: "Main",
-  props: {}
+  props: {},
+  components: {
+    Member
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
+.avatar {
+  width: 5em;
+  height: 5em;
+  border-radius: 5em;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+h3 img {
+  height: 1em;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+#members a {
+  border-bottom: none;
 }
-a {
-  color: #42b983;
+
+.hover-image img {
+  display: none;
+}
+
+.hover-image:hover img {
+  display: block;
 }
 </style>
