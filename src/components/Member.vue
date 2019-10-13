@@ -81,6 +81,10 @@ export default {
         {
           link: "https://github.com/ZeddYu",
           avatar: "https://avatars3.githubusercontent.com/u/29536474?s=460&v=4"
+        },
+        {
+          link: "https://github.com/Kit4y",
+          avatar: "https://avatars0.githubusercontent.com/u/38547290?s=460&v=4"
         }
       ]
     };

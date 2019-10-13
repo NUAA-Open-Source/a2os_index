@@ -54,6 +54,13 @@
         </div>
         <div class="row">
           <div class="col-12">
+            <a href="https://guide.a2os.club" class="button big">A2OS Guide</a>
+            <p style="display: inline; margin-left: 20px">存放了南航非官方组织或个人开发的各类产品或小制作</p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
             <a href="https://safeu.a2os.club" class="button big">SafeU</a>
             <p style="display: inline; margin-left: 20px">安全、快速的文件分享渠道</p>
           </div>
@@ -70,6 +77,13 @@
           <div class="col-12">
             <a href="#weekly" class="button big">Weekly</a>
             <p style="display: inline; margin-left: 20px">周常培训</p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
+            <a href="https://bbs.a2os.xyz" class="button big">A2OS 技术论坛</a>
+            <p style="display: inline; margin-left: 20px">A2OS 人自己的论坛</p>
           </div>
         </div>
       </section>
@@ -94,7 +108,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <a href="https://groups.google.com/group/a2os-general" class="button big" target="_blank">
+            <a href="https://groups.google.com/group/a2os-general" class="button big" style="margin-right: 5px" target="_blank">
               关注邮件列表及时获取 A2OS
               Weekly 的消息
             </a>
