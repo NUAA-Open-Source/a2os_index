@@ -34,11 +34,6 @@
             </h2>
             <p>助力每一个南航人成就非凡</p>
           </header>
-          <ul class="actions">
-            <li>
-              <a href="#" class="button big">了解更多</a>
-            </li>
-          </ul>
         </div>
       </section>
 
@@ -97,12 +92,16 @@
         <div class="row" id="weekly">
           <div class="col-12">
             <p>
-              有道无术，术尚可求，有术无道，止于术。
-              <br />如果说网络安全是互联网发展的“道”，漏洞则是互联网安全的“术”。要谈网络安全，必须说清楚漏洞。若只谈漏洞，则不知言之所谓。
-              <br />本次分享从漏洞入手，讲解部分基础的Web安全知识。
-              <br />时间：3 月 30 日（周六）晚 19:30 - 21:00
-              <br />地点：江宁校区一号楼六楼IT创新区会议室
-              <br />讲者：陆建宇
+              各位同学：
+              <br />经历了一个暑假，A2OS 的 Weekly 又开始了，本周由我给大家带来的主题是《我是如何从0到1参与 Swift 的开发》。
+              <br /> 我第一次冒出参与 Swift 编译器的开发是从 Swift Forum 上的一个帖子开始的，<a href="https://forums.swift.org/t/what-should-i-learn-if-i-want-to-contribute-to-the-swift-compiler/18144">如果我想给 Swift 编译器贡献代码我该学习什么？</a>在这个帖子里面，很多人给出了如何学习编译器。
+              <br />在我前往美国圣何塞参加了 WWDC 听 What‘s new in Swift 的时候，发现有一个新特性是一个高中生提出并完成开发的，那是我坚定了尝试参与 Swift Compiler 开发。
+              <br />于是利用周末的时间选择了 Swift 的一个 Starter bug 并修复了它，整个过程还是相当有趣的。
+              <strong>
+                <br /><br />时间：2019.11.9 晚上 7:30 - 8:30
+                <br />地点：将军路校区一号楼6楼学生IT创新创业区会议室
+                <br />讲者：赵子渊
+              </strong>
             </p>
           </div>
         </div>
