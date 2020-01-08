@@ -74,13 +74,6 @@
             <p style="display: inline; margin-left: 20px">周常培训</p>
           </div>
         </div>
-        <br />
-        <div class="row">
-          <div class="col-12">
-            <a href="https://bbs.a2os.xyz" class="button big">A2OS 技术论坛</a>
-            <p style="display: inline; margin-left: 20px">A2OS 人自己的论坛</p>
-          </div>
-        </div>
       </section>
       <!-- Section -->
 
