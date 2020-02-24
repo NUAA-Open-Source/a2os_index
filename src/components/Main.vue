@@ -3,7 +3,7 @@
     <div class="inner">
       <!-- Header -->
       <header id="header">
-        <router-link to="/"  class="logo"><strong>A2OS</strong> 南京航空航天大学开源社区</router-link>
+        <router-link to="/"  class="logo"><strong>A2OS 开源社区</strong></router-link>
         <ul class="icons">
           <li>
             <a href="https://github.com/NUAA-Open-Source" class="icon fa-github">
@@ -30,7 +30,7 @@
             <h1>A2OS</h1>
             <h2>
               NUAA Open Source
-              <br />南京航空航天大学开源社区
+              <br />明廓翠屏开源社区
             </h2>
             <p>助力每一个南航人成就非凡</p>
           </header>
@@ -64,7 +64,7 @@
         <div class="row">
           <div class="col-12">
             <a href="https://blogroll.a2os.club" class="button big">Blogroll</a>
-            <p style="display: inline; margin-left: 20px">南京航空航天大学 Blog 收集计划</p>
+            <p style="display: inline; margin-left: 20px">南航成员 Blog 收集计划</p>
           </div>
         </div>
         <br />
@@ -72,6 +72,13 @@
           <div class="col-12">
             <a href="#weekly" class="button big">Weekly</a>
             <p style="display: inline; margin-left: 20px">周常培训</p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
+            <a href="#weekly" class="button big">FTP</a>
+            <p style="display: inline; margin-left: 20px">A2OS FTP 站点</p>
           </div>
         </div>
       </section>
@@ -118,7 +125,7 @@
     </div>
     <div style="text-align: center">
       <hr />
-      <a class="beianhao" href="http://www.miitbeian.gov.cn/">苏ICP备17037222-4号</a>
+      <a class="beianhao" href="http://beian.miit.gov.cn/">苏ICP备17037222-4号</a>
     </div>
   </div>
 </template>
