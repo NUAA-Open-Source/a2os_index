@@ -40,7 +40,7 @@
 
       <!-- Footer -->
       <footer id="footer">
-        <p class="copyright">@a2os.club 2018-2019 All rights reserved.</p>
+        <p class="copyright">@a2os.club 2018-2020 All rights reserved.</p>
       </footer>
     </div>
   </div>

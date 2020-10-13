@@ -122,6 +122,7 @@
       <!-- Section -->
 
       <Member />
+      <Sponsor />
     </div>
     <div style="text-align: center">
       <hr />
@@ -132,11 +133,13 @@
 
 <script>
 import Member from './Member'
+import Sponsor from './Sponsor'
 export default {
   name: "Main",
   props: {},
   components: {
-    Member
+    'Member': Member,
+    'Sponsor': Sponsor
   }
 };
 </script>
