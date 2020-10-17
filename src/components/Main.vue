@@ -44,18 +44,6 @@
         </header>
         <div class="row">
           <div class="col-12">
-            <p></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <a href="https://guide.a2os.club" class="button big">A2OS Guide</a>
-            <p style="display: inline; margin-left: 20px">存放了南航非官方组织或个人开发的各类产品或小制作</p>
-          </div>
-        </div>
-        <br />
-        <div class="row">
-          <div class="col-12">
             <a href="https://safeu.a2os.club" class="button big">SafeU</a>
             <p style="display: inline; margin-left: 20px">安全、快速的文件分享渠道</p>
           </div>
