@@ -65,7 +65,7 @@
         <br />
         <div class="row">
           <div class="col-12">
-            <a href="#weekly" class="button big">FTP</a>
+            <a href="https://ftp.a2os.club" class="button big">FTP</a>
             <p style="display: inline; margin-left: 20px">A2OS FTP 站点</p>
           </div>
         </div>
