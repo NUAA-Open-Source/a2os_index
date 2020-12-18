@@ -100,7 +100,7 @@
               Weekly 的消息
             </a>
             <a
-              href="https://github.com/NUAA-Open-Source/A2OS/blob/master/历次培训及讲座.md"
+              href="https://github.com/NUAA-Open-Source/weekly/blob/master/README.md"
               class="button big"
               target="_blank"
             >查看历届 A2OS Weekly</a>
