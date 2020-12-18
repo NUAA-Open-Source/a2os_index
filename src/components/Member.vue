@@ -7,7 +7,6 @@
       <div class="col-12">
         <div class="row gtr-uniform" id="members">
           <a v-for="m of members" :key="m.link" :href="m.link">
-            <!-- {{m}} -->
             <img class="icon avatar" :src="m.avatar" alt="" />
           </a>
         </div>
@@ -20,75 +19,106 @@
           href="https://github.com/NUAA-Open-Source/"
           class="button big"
           target="_blank"
-        >加入我们的 GitHub 组织，你将会出现在这里。</a>
+          >加入我们的 GitHub 组织，你将会出现在这里。
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "Member",
   props: {},
   data() {
     return {
-      members: [
+      members: [],
+      defaultMembers: [
         {
           link: "https://github.com/40m41h42t",
-          avatar: "https://avatars2.githubusercontent.com/u/43204230?s=460&v=4"
+          avatar: "https://avatars2.githubusercontent.com/u/43204230?s=460&v=4",
         },
-
         {
           link: "https://github.com/arcosx",
-          avatar: "https://avatars3.githubusercontent.com/u/17517365?s=460&v=4"
+          avatar: "https://avatars3.githubusercontent.com/u/17517365?s=460&v=4",
         },
-
         {
           link: "https://github.com/LogicJake",
-          avatar: "https://avatars3.githubusercontent.com/u/20673460?s=460&v=4"
+          avatar: "https://avatars3.githubusercontent.com/u/20673460?s=460&v=4",
         },
-
         {
           link: "https://github.com/milkice233",
-          avatar: "https://avatars0.githubusercontent.com/u/5274559?s=460&v=4"
+          avatar: "https://avatars0.githubusercontent.com/u/5274559?s=460&v=4",
         },
-
         {
           link: "https://github.com/RayZhao1998",
-          avatar: "https://avatars0.githubusercontent.com/u/22616933?s=460&v=4"
+          avatar: "https://avatars0.githubusercontent.com/u/22616933?s=460&v=4",
         },
-
         {
           link: "https://github.com/RyanSu98",
-          avatar: "https://avatars0.githubusercontent.com/u/33794423?s=460&v=4"
+          avatar: "https://avatars0.githubusercontent.com/u/33794423?s=460&v=4",
         },
-
         {
           link: "https://github.com/seiry",
-          avatar: "https://avatars2.githubusercontent.com/u/4397354?s=460&v=4"
+          avatar: "https://avatars2.githubusercontent.com/u/4397354?s=460&v=4",
         },
-
         {
           link: "https://github.com/Triple-Z",
-          avatar: "https://avatars3.githubusercontent.com/u/16285716?s=460&v=4"
+          avatar: "https://avatars3.githubusercontent.com/u/16285716?s=460&v=4",
         },
-
         {
           link: "https://github.com/Villivateur",
-          avatar: "https://avatars3.githubusercontent.com/u/30222160?s=460&v=4"
+          avatar: "https://avatars3.githubusercontent.com/u/30222160?s=460&v=4",
         },
-
         {
           link: "https://github.com/ZeddYu",
-          avatar: "https://avatars3.githubusercontent.com/u/29536474?s=460&v=4"
+          avatar: "https://avatars3.githubusercontent.com/u/29536474?s=460&v=4",
         },
         {
           link: "https://github.com/Kit4y",
-          avatar: "https://avatars0.githubusercontent.com/u/38547290?s=460&v=4"
-        }
-      ]
+          avatar: "https://avatars0.githubusercontent.com/u/38547290?s=460&v=4",
+        },
+        {
+          link: "https://github.com/miaotony",
+          avatar: "https://avatars0.githubusercontent.com/u/41962043?s=460&v=4",
+        },
+      ],
     };
-  }
+  },
+  mounted() {
+    this.queryMembers();
+  },
+  methods: {
+    queryMembers() {
+      let url = "https://api.github.com/orgs/NUAA-Open-Source/public_members";
+      axios
+        .get(url)
+        .then(
+          function (response) {
+            console.log("Query callback: ", response);
+            if (response.status == 200) {
+              const data = response.data;
+              let tmpMembers = new Array();
+              for (let i of data) {
+                let singleMember = { link: i.html_url, avatar: i.avatar_url };
+                tmpMembers.push(singleMember);
+              }
+              console.log(tmpMembers);
+              this.members = tmpMembers;
+              return;
+            }
+            console.log("Fetch members error!");
+            this.members = this.defaultMembers;
+          }.bind(this)
+        )
+        .catch(function (error) {
+          console.log("Fetch members error!");
+          this.members = this.defaultMembers;
+        });
+    },
+  },
 };
 </script>
 

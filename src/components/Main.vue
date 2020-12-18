@@ -44,14 +44,35 @@
         </header>
         <div class="row">
           <div class="col-12">
-            <a href="https://safeu.a2os.club" class="button big">SafeU</a>
+            <a href="https://safeu.a2os.club" target="_blank" class="button big">SafeU</a>
             <p style="display: inline; margin-left: 20px">安全、快速的文件分享渠道</p>
           </div>
         </div>
         <br />
         <div class="row">
           <div class="col-12">
-            <a href="https://blogroll.a2os.club" class="button big">Blogroll</a>
+            <a href="https://anyknew.a2os.club/?from=a2osindex" target="_blank" class="button big">AnyKnew</a>
+            <p style="display: inline; margin-left: 20px">南航校园信息聚合平台</p>
+        </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
+            <a href="https://bbs.a2os.club" target="_blank" class="button big">BBS</a>
+            <p style="display: inline; margin-left: 20px">A2OS 技术论坛</p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
+            <a href="https://ftp.a2os.club" target="_blank" class="button big">FTP</a>
+            <p style="display: inline; margin-left: 20px">A2OS FTP 站点</p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-12">
+            <a href="https://blogroll.a2os.club" target="_blank" class="button big">Blogroll</a>
             <p style="display: inline; margin-left: 20px">南航成员 Blog 收集计划</p>
           </div>
         </div>
@@ -60,13 +81,6 @@
           <div class="col-12">
             <a href="#weekly" class="button big">Weekly</a>
             <p style="display: inline; margin-left: 20px">周常培训</p>
-          </div>
-        </div>
-        <br />
-        <div class="row">
-          <div class="col-12">
-            <a href="https://ftp.a2os.club" class="button big">FTP</a>
-            <p style="display: inline; margin-left: 20px">A2OS FTP 站点</p>
           </div>
         </div>
       </section>
@@ -100,7 +114,7 @@
               Weekly 的消息
             </a>
             <a
-              href="https://github.com/NUAA-Open-Source/A2OS/blob/master/历次培训及讲座.md"
+              href="https://github.com/NUAA-Open-Source/weekly/blob/master/README.md"
               class="button big"
               target="_blank"
             >查看历届 A2OS Weekly</a>
