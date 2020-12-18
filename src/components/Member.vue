@@ -37,47 +37,38 @@ export default {
           link: "https://github.com/40m41h42t",
           avatar: "https://avatars2.githubusercontent.com/u/43204230?s=460&v=4"
         },
-
         {
           link: "https://github.com/arcosx",
           avatar: "https://avatars3.githubusercontent.com/u/17517365?s=460&v=4"
         },
-
         {
           link: "https://github.com/LogicJake",
           avatar: "https://avatars3.githubusercontent.com/u/20673460?s=460&v=4"
         },
-
         {
           link: "https://github.com/milkice233",
           avatar: "https://avatars0.githubusercontent.com/u/5274559?s=460&v=4"
         },
-
         {
           link: "https://github.com/RayZhao1998",
           avatar: "https://avatars0.githubusercontent.com/u/22616933?s=460&v=4"
         },
-
         {
           link: "https://github.com/RyanSu98",
           avatar: "https://avatars0.githubusercontent.com/u/33794423?s=460&v=4"
         },
-
         {
           link: "https://github.com/seiry",
           avatar: "https://avatars2.githubusercontent.com/u/4397354?s=460&v=4"
         },
-
         {
           link: "https://github.com/Triple-Z",
           avatar: "https://avatars3.githubusercontent.com/u/16285716?s=460&v=4"
         },
-
         {
           link: "https://github.com/Villivateur",
           avatar: "https://avatars3.githubusercontent.com/u/30222160?s=460&v=4"
         },
-
         {
           link: "https://github.com/ZeddYu",
           avatar: "https://avatars3.githubusercontent.com/u/29536474?s=460&v=4"
@@ -85,7 +76,11 @@ export default {
         {
           link: "https://github.com/Kit4y",
           avatar: "https://avatars0.githubusercontent.com/u/38547290?s=460&v=4"
-        }
+        },
+        {
+          link: "https://github.com/miaotony",
+          avatar: "https://avatars0.githubusercontent.com/u/41962043?s=460&v=4"
+        },
       ]
     };
   }
